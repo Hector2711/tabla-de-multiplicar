@@ -3,11 +3,11 @@
 
 int main (){
 	setlocale(LC_ALL,"spanish");
-	//Reservamos memoria
+
 	int resultado;
 	int numero;
 	//Guardamos el numero a multiplicar
-	printf("ingresa un número:");
+	printf("ingresa un nÃºmero:");
 	scanf("%i",&numero);
 	 resultado=numero*1;
 	//multiplicaciones
@@ -19,7 +19,6 @@ int main (){
 	
 	resultado=numero*3;
 	printf("%ix3=%i\n", numero, resultado);
-	
 	resultado=numero*4;
 	printf("%ix4=%i\n",numero, resultado);
 	
